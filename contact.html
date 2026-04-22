@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>The Cocktail Paradise</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js">
+      
+      
+    
+
+    </script>
+
+</head>
+<body>
+  <header>
+   <div class="container">
+     <div class="mainLogo">
+      <img src ="Images/logo2.png" alt="logo" id="logoTop">
+     </div>
+     <div>
+
+     </div>
+     <div>
+
+     </div>
+     <div id="title">
+        <h1>The Cocktail Paradise</h1>
+     </div>
+    <div class="menu" id="menu">
+     <nav>
+      <a href="index.html">Home</a>
+      <a href="recipe_12.html">Recipe Book</a>
+      <a href="mixology.html">Mixology</a>
+      <a href="ingredients.html">Ingredients</a>
+      <a href="gallery.html">Photo Gallery</a>
+      <a href="links.html">Useful Links</a>
+      <a href="contact.html">Contact Us</a>
+     </nav>
+    </div>
+  </div>
+  <div class="navigation">
+      <a href="javascript:void(0);" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
+ </header>
+    
+    <main>
+     <div class="contact">
+      <form id="StudentDetails" method="post" action="http://rdwd.atspace.cc/response.php">
+      <p class="nameForm">
+       <label for="name">Student Name (max 25 characters)</label>
+       <input type="text" name="name" id="name">
+       <span id="err1" class="errors"></span>
+     </p>
+     <p class="addForm">
+        <label for="address">Enter your Address</label>
+        <input type="text" name="address" id="address">
+        <span id="err2" class="errors"> </span>
+     </p>
+     <p class="addForm">
+        <label for="mobile">Mobile number </label>
+        <input type="text" name="mobile" id="mobile">
+        <span id="err3" class="errors"></span>  
+     </p>
+     <p class="addForm">
+        <label for="email1">Email Address </label>
+        <input type="text" name="email1" id="email1">
+        <span id="err4" class="errors"> </span> 
+     </p>
+     <p class="addForm">
+        <label for="email2">Retype Email Address</label>
+        <input type="text" name="email2" id="email2">
+        <span id="err5" class="errors"> </span>  
+     </p>
+     <p class="radio">
+        <label for="member">Are a site member?</label><br>
+        <label for="member1">Yes: </label>
+        <input type="radio" name="member" id="member1" value="yes"><br>
+        <label for="member2">No: </label>
+        <input type="radio" name="member" id="member2" value="no">
+        <span id="err6" class="errors"> </span>  
+     </p>
+     <p class="addForm">
+      <label for="query">Any aditional questiones:</label><br>
+      <textarea name="query" id="query" cols="100" rows="10"></textarea>
+      <span id="err7" class="errors"></span>  
+     </p>
+
+     <div class="button">
+      <div class="reset"> 
+        <input type="reset" name="reset" id="reset" value="Reset">
+      </div>
+      <div class="submit">
+        <input type="submit" name="submit" id="submit" value="Submit">
+      </div>
+     </div>
+    </form>
+   </div>
+  </main>
+
+    <footer>
+     <div class="footDiv">
+      <div class="bottomLogo">
+        <img src ="Images/bottomLogo.png" alt="logo" id="logoBottom">
+      </div>
+      <div class="infoOne">
+        <h3>Business Inqueries</h3>
+        <br><br>
+        <p>Send me an email:</p>
+        <p><a href="mailto:masafovicloko@gmail.com"> masafovicloko@gmail.com</a></p>
+        <br><br>
+        <p>Phone Number:</p>
+        <p>+353 87 322 7486</p><br>
+
+      </div>
+      <div class="infoTwo">
+       <br>
+       <p><a href="#" class="fa fa-facebook"></a> <span>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</span></p>
+       <br>
+       <p><a href="#" class="fa fa-twitter"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;Twitter</span></p>
+       
+      </div>
+      <div class="infoThree">
+        <br>
+        <p><a href="https://www.instagram.com/" class="fa fa-instagram"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</span></p>
+        <br>
+        <p><a href="#" class="fa fa-youtube"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;YouTube</span></p>
+      </div>
+     </div>
+    </footer>
+  <script>
+    document.getElementById("StudentDetails").addEventListener("submit", processForm);
+    
+  </script>
+</body>
+</html>

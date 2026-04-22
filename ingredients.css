@@ -1,0 +1,356 @@
+*{margin: 0;}
+
+*{box-sizing: border-box;}
+
+
+          /*--------------------   Header   ------------------------------*/
+
+.container{ display: grid;
+            grid-template-columns: repeat(12, auto);
+            grid-template-rows: 200px, 80px;
+            background-color: #3197D6;
+
+}
+
+.mainLogo{ grid-column: 2 / 6;
+           /*border: 2px solid black;*/
+
+}
+
+#logoTop{}
+
+
+img { max-width:100%;}
+
+#title{ grid-column: 10 / 13;
+        margin: auto;
+        /*border: 2px solid black;*/
+        height: 12rem;
+        padding-top: 4rem;
+        font-size: 26px;
+        font-family: 'Courier New', Courier, monospace;
+
+
+}
+.menu{ grid-column: 1 / -1;
+       grid-row: 2 / 3;
+       background-color: #A8DADC;
+
+}
+h1{ text-align: center;
+    color: #FFA64A;
+
+}
+
+
+nav{ /*width: 100%;
+    border: 2px solid red;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    float: center;
+    
+    
+
+}
+nav a{ display: inline-block;
+       float: left;
+       width: 14.2%;
+       height: 50px;
+       border: 3px solid black;
+       text-decoration: none;
+       color: #E63946;
+       padding: 4px 4px 4px 4px;
+       margin: auto;
+       text-align: center;
+       
+}
+nav a:hover { background-color: #EFE2B3;
+              color: #AA1958;
+
+}
+
+html{ background-color: #D9ECE9;
+
+}
+
+.icon{display: none;}
+
+        /*--------------------   Main   ------------------------------*/
+
+.spirits{ display: grid;
+          grid-template-columns: repeat(12, 1fr);
+          width: 90%;
+          margin: auto;
+}
+
+.title2{ text-align: center;
+         font-size: 15px;
+         color: #FFA64A;
+         margin: 2rem 0rem 2rem 0rem;
+
+}
+ 
+.whiskey{ grid-column: 1/5;
+          border: 2px solid black;
+          text-align: center;
+          margin: 0rem 1rem 2rem 0rem;
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: whitesmoke;
+
+}
+.rum{   grid-column: 5/9;
+          border: 2px solid black;
+          text-align: center;
+          margin: 0rem 1rem 2rem 0rem;
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: whitesmoke;
+}
+.vodtka{   grid-column: 9/13;
+          border: 2px solid black;
+          text-align: center;
+          margin: 0rem 0rem 2rem 0rem;
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: whitesmoke;
+
+
+}
+
+.tequila{ grid-column: 1/5;
+          border: 2px solid black;
+          text-align: center;
+          margin: 2rem 1rem 4rem 0rem;
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: whitesmoke;
+
+}
+.brandy{   grid-column: 5/9;
+          border: 2px solid black;
+          text-align: center;
+          margin: 2rem 1rem 4rem 0rem;
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: whitesmoke;
+}
+.gin{   grid-column: 9/13;
+          border: 2px solid black;
+          text-align: center;
+          margin: 2rem 0rem 4rem 0rem;
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: whitesmoke;
+}
+
+#whiskey2, #rum, #gin, #brandy, #vodtka, #tequila
+{
+  width: 300px;
+  height: 450px;
+  border-radius: 15px;
+}
+         /*--------------------   Footer   ------------------------------*/
+
+
+footer{ /*margin-top: 3rem;*/
+
+}
+
+.footDiv{ display: flex;
+          flex-direction: row;
+          background-color: #FFA64A;
+          height: 220px;
+          margin: auto;
+          column-gap: 3rem;
+
+}
+
+.bottomLogo{ height: 8rem;
+             width: 20rem;
+             /*border: red 3px solid;*/
+             padding: 1rem;
+
+}
+
+#logoBottom{ height: 12rem;
+             width: 18rem;
+
+}
+
+.infoOne{ /*border: #AA1958 2px solid;*/
+          color: #0B5B9F;
+          padding-top: 1.5rem;
+          width: 20rem;
+          text-align: center;
+
+}
+.infoOne p a{ text-decoration: none;
+              color: #0B5B9F
+
+}
+
+.infoTwo{ /*border: #E63946 2px solid;*/
+          width: 300px;
+          padding-top:  10px;
+}
+
+h3 { font-weight: bold;
+     text-align: center;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #a40f25;
+  color: white;
+}
+.fa-youtube {
+  background: #c90606;
+  color: white;
+}
+span{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      color: #a40f25;
+}
+
+.infoThree{ /*border: #a40f25 2px solid;*/
+            width: 300px;
+            padding-top:  10px;
+
+}
+
+
+                       /*--------------------   Media   ------------------------------*/
+
+@media (max-width: 1300px)
+{
+
+ .whiskey{ grid-column: 1/7;
+
+ }
+ .rum{ grid-column: 7/13;
+
+ }
+.vodtka{ grid-column: 1/7;
+         margin-right: 1rem;
+
+ }
+.tequila{ grid-column: 7/13;
+          margin: 0rem 1rem 2rem 0rem;
+
+ }
+.brandy{ grid-column: 1/7;
+
+ }
+ .gin{ grid-column: 7/13;
+
+ }
+
+}
+
+
+      /*--------------------------------Footer--------------------------------------------------------*/
+
+      .bottomLogo{display: none;}
+
+
+@media (max-width: 800px) 
+{
+                  /*------------------- header --------------------------*/
+   .mainLogo{display: none;}
+   .menu{/*border: 2px solid black;*/
+        }
+   nav a{display: flex;
+        flex-direction: column;
+        float: left;
+        width: 100%;
+       height: 40px;
+       /*border: 1px solid black;*/
+       text-decoration: none;
+       color: #E63946;
+       padding: 4px 4px 4px 4px;
+       margin: auto;
+       text-align: center;
+       vertical-align: middle;
+        
+       }
+    .nav a{ width: 100%;
+          /*width: 100%*/}
+
+    .navigation{ /*border: 2px black solid;*/
+                 background-color: #3aaac9;
+
+     }
+     .icon{display: block;}
+
+
+                  /*------------------- Main ----------------------------*/
+.whiskey{ grid-column: 1/13;
+
+ }
+ .rum{ grid-column: 1/13;
+
+ }
+.vodtka{ grid-column: 1/13;
+         /*margin-right: 1rem;*/
+
+ }
+.tequila{ grid-column: 1/13;
+          /*margin: 0rem 1rem 2rem 0rem;*/
+
+ }
+.brandy{ grid-column: 1/13;
+
+ }
+ .gin{ grid-column: 1/13;
+       margin-top: auto;
+       width: auto;
+
+ }
+
+}
+
+                  /*------------------- Footer --------------------------*/
+
+    .footDiv{flex: 50%}
+    .infoOne{/*border: 2px solid black;*/
+             width: 35%;
+             font-size: 16px;
+             margin-left: 1rem;
+             
+            }
+    .bottomLogo{display: none;}
+    .infoTwo{  padding: 0px;
+               /*border: 2px solid black;*/}
+    .infoThree{padding: 0px;
+               /*border: 2px solid black;*/
+               margin-right: 3rem;}
+    .infoTwo span{display: none;}
+    .infoThree span{display: none;}
+
+
+

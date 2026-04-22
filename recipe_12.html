@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Cocktail Paradise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="recipe_12.js"> 
+
+    
+    function menu() {
+      var x = document.getElementById("menu");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+   }
+
+  </script>
+    
+  <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+  <header>
+   <div class="container">
+     <div class="mainLogo">
+      <img src ="Images/logo2.png" alt="logo" id="logoTop">
+     </div>
+     <div>
+
+     </div>
+     <div>
+
+     </div>
+     <div id="title">
+        <h1>The Cocktail Paradise</h1>
+     </div>
+    <div class="menu" id="menu">
+     <nav>
+      <a href="index.html">Home</a>
+      <a href="recipe_12.html">Recipe Book</a>
+      <a href="mixology.html">Mixology</a>
+      <a href="ingredients.html">Ingredients</a>
+      <a href="gallery.html">Photo Gallery</a>
+      <a href="links.html">Useful Links</a>
+      <a href="contact.html">Contact Us</a>
+     </nav>
+    </div>
+  </div>
+  <div class="navigation">
+      <a href="javascript:void(0);" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+      </a>
+     </div>
+ </header>
+   
+<body>   
+  <main>
+    <div class = "intro">
+	      <h1>Recipe Book</h1>  
+    </div>
+
+       <div class = "cocktailModern">
+	      <h1>Modern Cocktails </h1>  
+	     </div>
+	
+	     <br>
+	
+	   <div class = "coctails_1">
+	     <div class = "coctailsOpt">
+           <form>
+            <select id ="coctOpt_1" name = "coctails" size = "4" >
+               <option value = "Coctails 1">Pornstar Martini</option>
+               <option value = "Coctails 2">Pisco Sour</option>
+               <option value = "Coctails 3">Esspresso Martini</option>
+               <option value = "Coctails 4">Blackberry Bramble</option>
+            </select>
+
+            
+		   </form>	 
+
+
+       <button onclick = "showCoctails_1()">Show Cocktails</button>
+        </div>
+
+	    <div class = "picCoct">
+          <img src = "Images/pstar_martini2.jpg" id = "imgCoct_1" > 
+        </div>
+
+        <div class = "coctPrep">
+	      <form>
+   	       <textarea name = "coctPrep" id ="coctText_1" rows = "15" cols="40" disabled>How to prepare the first cocktail.</textarea>
+	      </form>
+        </div>
+    </div>
+  
+   
+
+   <div class = "cocktailModern">
+	      <h1>Classic Cocktails</h1>  
+	     <div>
+	
+	     <br>
+	
+	   <div class = "coctails_1">
+	     <div class = "coctailsOpt">
+           <form>
+            <select id ="coctOpt_2" name = "coctails" size = "4" >
+               <option value = "Coctails 1">Old Fashioned</option>
+               <option value = "Coctails 2">Negroni</option>
+               <option value = "Coctails 3">Pina Colada</option>
+               <option value = "Coctails 4">Mojito</option>
+            </select>
+		   </form>	 
+
+       <button onclick = "showCoctails_2()">Show Cocktails</button>
+
+        </div>
+
+	    <div class = "picCoct">
+          <img src = "Images/fashioned2.jpg" id = "imgCoct_2" > 
+        </div>
+
+        <div class = "coctPrep">
+	      <form>
+   	       <textarea name = "coctPrep" id ="coctText_2" rows = "15" cols="40" disabled>How to prepare the first cocktail.</textarea>
+	      </form>
+        </div>
+    </div>
+  
+   
+     <div class = "cocktailModern">
+	      <h1>My Own Creation</h1>  
+	     <div>
+	
+	     <br>
+	
+	   <div class = "coctails_1">
+	     <div class = "coctailsOpt">
+           <form>
+            <select id ="coctOpt_3" name = "coctails" size = "4" >
+               <option value = "Coctails 1">Pink Panther</option>
+               <option value = "Coctails 2">Shrek's Swamp</option>
+               <option value = "Coctails 3">Blueberry Paradise</option>
+               <option value = "Coctails 4">The Black Pearl</option>
+            </select>
+		   </form>	 
+
+       <button onclick = "showCoctails_3()">Show Cocktails</button>
+        </div>
+
+	    <div class = "picCoct">
+          <img src = "Images/panther.jpg" id = "imgCoct_3"> 
+        </div>
+
+        <div class = "coctPrep">
+	      <form>
+   	       <textarea name = "coctPrep" id ="coctText_3" rows = "15" cols="40" disabled>How to prepare the first cocktail.</textarea>
+	      </form>
+        </div>
+    </div>
+
+  </main>
+    <footer>
+     <div class="footDiv">
+      <div class="bottomLogo">
+        <img src ="Images/bottomLogo.png" alt="logo" id="logoBottom">
+      </div>
+      <div class="infoOne">
+        <h3>Business Inqueries</h3>
+        <br><br>
+        <p>Send me an email:</p>
+        <p><a href="mailto:masafovicloko@gmail.com"> masafovicloko@gmail.com</a></p>
+        <br><br>
+        <p>Phone Number:</p>
+        <p>+353 87 322 7486</p><br>
+
+      </div>
+      <div class="infoTwo">
+       <br>
+       <p><a href="#" class="fa fa-facebook"></a> <span>&nbsp;&nbsp;&nbsp;&nbsp;Facebook</span></p>
+       <br>
+       <p><a href="#" class="fa fa-twitter"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;Twitter</span></p>
+       
+      </div>
+      <div class="infoThree">
+        <br>
+        <p><a href="https://www.instagram.com/" class="fa fa-instagram"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;Instagram</span></p>
+        <br>
+        <p><a href="#" class="fa fa-youtube"></a><span>&nbsp;&nbsp;&nbsp;&nbsp;YouTube</span></p>
+      </div>
+     </div>
+    </footer>
+
+  
+</body>
+</html>
